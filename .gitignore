@@ -1,1 +1,3 @@
 .git/info/exclude
+/password_manager/key.key
+/password_manager/password_manager.txt
