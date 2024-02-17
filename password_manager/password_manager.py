@@ -1,12 +1,5 @@
 from cryptography.fernet import Fernet 
 
-'''
-def add_key():
-    key = Fernet.generate_key()
-    with open('key.key', 'wb') as k:
-        k.write(key)
-'''
-
 def load_key():
     with open('key.key', 'rb') as enc:
         key = enc.read()
